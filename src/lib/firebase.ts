@@ -24,7 +24,7 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyBIbgTcVJz-HPEfeW6Rqgk_UCwfLCFhNvs',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || '',
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'priv-8fc3f.firebaseapp.com',
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || 'priv-8fc3f',
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'priv-8fc3f.firebasestorage.app',
